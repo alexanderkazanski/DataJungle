@@ -64,4 +64,10 @@ graph.addAnchorThread("Wild Life")
 graph.addAnchorThread("Sora generated wild life")
 graph.addFrameThread("Wild Life", "Sora generated wild life")
 
+graph.addAnchorThread("Linkedin")
+graph.addFrameThread("ChatGPT", "Linkedin")
+
+graph.addAnchorThread("Samsung Health Ring closed as I was walking by a person, not isolated from people")
+graph.addFrameThread("Linkedin", "Samsung Health Ring closed as I was walking by a person, not isolated from people")
+
 graph.display();
