@@ -15,7 +15,7 @@ class SpiderWeb {
     if (!this.adjacencyList[vertex1]) this.addAnchorThread(vertex1);
     if (!this.adjacencyList[vertex2]) this.addAnchorThread(vertex2);
     this.adjacencyList[vertex1].push(vertex2);
-    this.adjacencyList[vertex2].push(vertex1);
+    // this.adjacencyList[vertex2].push(vertex1);
   }
 
   // remove a edge
@@ -60,6 +60,8 @@ graph.addAnchorThread("Speader at Meetup referenced JavaScript frequently and Jo
 graph.addFrameThread("Scrimba", "Speader at Meetup referenced JavaScript frequently and Job search")
 
 graph.addAnchorThread("Wild Life")
+graph.addAnchorThread("Apon returning wall art I crossed paths with a family walking their kids and dogs")
+graph.addFrameThread("Wild Life", "Apon returning wall art I crossed paths with a family walking their kids and mini dogs")
 
 graph.addAnchorThread("Sora generated wild life")
 graph.addFrameThread("Wild Life", "Sora generated wild life")
@@ -69,5 +71,12 @@ graph.addFrameThread("ChatGPT", "Linkedin")
 
 graph.addAnchorThread("Samsung Health Ring closed as I was walking by a person, not isolated from people")
 graph.addFrameThread("Linkedin", "Samsung Health Ring closed as I was walking by a person, not isolated from people")
+
+graph.addAnchorThread("Random person on linkedin stumbled across a comment of mine, then read my resume. Finaly the answer is clear to the question Where are you? Moderatly Average.")
+graph.addFrameThread("Wild Life", "Random person on linkedin stumbled across a comment of mine, then read my resume. Finaly the answer is clear to the question Where are you? Moderatly Average.")
+
+
+
+
 
 graph.display();
