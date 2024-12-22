@@ -56,8 +56,8 @@ graph.addFrameThread("ChatGPT", "Decided to sprint during my walk");
 
 
 graph.addAnchorThread("Scrimba");
-graph.addAnchorThread("Speader at Meetup referenced JavaScript frequently and Job search")
-graph.addFrameThread("Scrimba", "Speader at Meetup referenced JavaScript frequently and Job search")
+graph.addAnchorThread("Speaker at Meetup referenced JavaScript frequently and Job search")
+graph.addFrameThread("Scrimba", "Speaker at Meetup referenced JavaScript frequently and Job search")
 
 graph.addAnchorThread("Wild Life")
 graph.addAnchorThread("Apon returning wall art I crossed paths with a family walking their kids and dogs")
@@ -75,6 +75,8 @@ graph.addFrameThread("Linkedin", "Samsung Health Ring closed as I was walking by
 graph.addAnchorThread("Random person on linkedin stumbled across a comment of mine, then read my resume. Finaly the answer is clear to the question Where are you? Moderatly Average.")
 graph.addFrameThread("Wild Life", "Random person on linkedin stumbled across a comment of mine, then read my resume. Finaly the answer is clear to the question Where are you? Moderatly Average.")
 
+graph.addAnchorThread("To improve average you do what?")
+graph.addFrameThread("Random person on linkedin stumbled across a comment of mine, then read my resume. Finaly the answer is clear to the question Where are you? Moderatly Average.", "To improve average you do what?")
 
 
 
